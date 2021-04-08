@@ -1,0 +1,26 @@
+<<<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    <table>
+        <tr>
+            <th>Owner Name </th>
+            <th>Puppy ID</th>
+            <th>Puppy Name</th>
+          </tr>
+
+        {% for x in puppies1 %}
+        <tr>
+          {% for y in x %}
+          <<td>{{y}} </td>
+          {% endfor %}
+        </tr>
+        {% endfor %}
+    </table>
+
+  </body>
+</html>>
