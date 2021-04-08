@@ -12,10 +12,14 @@ pip install flask
 conda create  -n puppycare
 conda activate puppycare
 
-3) Execute below file to start Flast App for "Puppy Care"
+3) create schema structure in mysql database
+
+python schemacreate.py
+
+4) Execute below file to start Flast App for "Puppy Care"
 
 python adoption_site.py
 
-4)  Execute below file to get statistics
+5)  Execute below file to get statistics
 
 python Panda_DF.py
